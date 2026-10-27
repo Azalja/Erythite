@@ -26,7 +26,7 @@ modules:
       packages:
         - micro
         - starship
-        #- mpv
+        - mpv
         - nautilus
         - nautilus-open-any-terminal
         - noctalia
