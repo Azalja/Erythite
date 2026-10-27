@@ -26,8 +26,11 @@ modules:
       packages:
         - micro
         - starship
+        - mpv
         - nautilus
         - nautilus-open-any-terminal
+        - noctalia
+        - kmod-v4l2loopback
     remove:
       packages:
         # example: removing firefox (in favor of the flatpak)
@@ -45,7 +48,23 @@ modules:
         scope: system
         # If no repo information is specified, Flathub will be used by default
         install: # system flatpaks we want all users to have and not remove
+          # core apps
           - app.zen_browser.zen
+          - com.protonvpn.www
+          - com.bitwarden.desktop
+          - io.github.kolunmi.Bazaar
+          - com.github.wwmm.easyeffects
+          - com.github.tchx84.Flatseal
+          - com.obsproject.Studio
+          - md.obsidian.Obsidian
+          - io.ente.auth
+          - org.localsend.localsend_app
+          - org.nicotine_plus.Nicotine
+          - org.signal.Signal
+          - io.github.ungoogled_software.ungoogled_chromium
+          # useful apps
+          - com.vscodium.codium
+          - org.qbittorrent.qBittorrent
           - org.gnome.Loupe
       - scope: user # Also add Flathub user repo, but no user packages
 
