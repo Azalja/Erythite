@@ -26,11 +26,11 @@ modules:
       packages:
         - micro
         - starship
-        - mpv
+        #- mpv
         - nautilus
         - nautilus-open-any-terminal
         - noctalia
-        - kmod-v4l2loopback
+        #- kmod-v4l2loopback
     remove:
       packages:
         # example: removing firefox (in favor of the flatpak)
