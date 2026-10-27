@@ -21,13 +21,13 @@ modules:
     repos:
       copr:
         - atim/starship
+        - monkeygold/nautilus-open-any-terminal
     install:
       packages:
         - micro
         - starship
         - nautilus
         - nautilus-open-any-terminal
-        - nautilus-image-converter
     remove:
       packages:
         # example: removing firefox (in favor of the flatpak)
